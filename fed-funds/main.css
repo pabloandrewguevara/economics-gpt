@@ -12,6 +12,7 @@
         padding: 10px 0;
         text-align: center;
         margin: 25px;
+        font-size: 2em;
     }
 
     h2 {
@@ -36,6 +37,6 @@
 
     .mini-header {
         margin-top:20px;
-        font-size: 2em;
+        font-size: 1.6em;
     }
 }
