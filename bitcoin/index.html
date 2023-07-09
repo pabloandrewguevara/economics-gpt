@@ -22,8 +22,7 @@
     
 
     <p><b>Predictive Patterns in Bitcoin's Price Changes: </b> We'll examine autocorrelation and partial autocorrelation in the data to identify any patterns that might exist over time lags. Autocorrelation measures the relationship between a variable's current value and its past values, while partial autocorrelation isolates the correlation at a specific lag, removing the influence of intermediary lags.</p>
-    <p>Before conducting this analysis, let's first confirm that the data is stationary, as this is a requirement for these statistical methods. We can do this using the Augmented Dickey-Fuller test.</p>
-    <p>The Augmented Dickey-Fuller test returns a p-value of approximately 0.59. The Bitcoin closing price data appears to be non-stationary, meaning it has a time-dependent structure.</p>
+    <p>Before conducting this analysis, let's first confirm that the data is stationary, as this is a requirement for these statistical methods. The Augmented Dickey-Fuller test returns a p-value of approximately 0.59. The Bitcoin closing price data appears to be non-stationary, meaning it has a time-dependent structure.</p>
     <p>To handle non-stationarity, we often difference the data, i.e., calculate the change in price from one period to the next. Let's create a differenced series and test it for stationarity. If it is stationary, we can proceed with the autocorrelation and partial autocorrelation analysis.</p>
     <p>The p-value for the Augmented Dickey-Fuller test on the differenced series is approximately 1.19e-11. The differenced series appears to be stationary, meaning it does not have a time-dependent structure.</p>
     <p>Now that we have a stationary series, let's proceed with the autocorrelation and partial autocorrelation analysis. This will help us understand if there are any significant correlations between the Bitcoin price at a given time and its prices at previous time points. This type of analysis can be useful for time series forecasting.</p>
@@ -40,6 +39,7 @@
 
     <p>Our autocorrelation and partial autocorrelation analysis of Bitcoin's monthly price changes suggest the presence of significant correlations with past price changes. These findings hint at potential predictive patterns in Bitcoin's price, although forecasting with high accuracy remains a challenge due to the currency's volatility and the influence of external factors.</p>
     
-    <p><b>Conclusion: Bitcoin's Role in the Digital Economy: </b>Bitcoin's journey from 2014 to 2023 reflects its increasing acceptance and interest as a leading cryptocurrency. As digital currencies continue to evolve, influenced by technological advancements, regulatory decisions, and shifts in public sentiment, Bitcoin's role and impact on the global economy will undoubtedly remain a topic of interest.</p>
+    <h2>Conclusion: Bitcoin's Role in the Digital Economy</h2>
+    <p>Bitcoin's journey from 2014 to 2023 reflects its increasing acceptance and interest as a leading cryptocurrency. As digital currencies continue to evolve, influenced by technological advancements, regulatory decisions, and shifts in public sentiment, Bitcoin's role and impact on the global economy will undoubtedly remain a topic of interest.</p>
 </body>
 </html>
