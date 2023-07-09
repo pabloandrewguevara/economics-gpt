@@ -34,9 +34,4 @@
     h1, h2, p {
         padding: 0 40px;
     }
-
-    .mini-header {
-        margin-top:20px;
-        font-size: 1.6em;
-    }
 }
