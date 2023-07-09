@@ -20,7 +20,7 @@
     
     <p><b>Bitcoin's Volatility and Regulatory Challenges: </b>Despite its significant growth, Bitcoin's price has experienced periods of rapid decline, reflecting the market's uncertainty and the regulatory challenges surrounding digital currencies. Bitcoin's volatile price trajectory is a clear indication of the ongoing debates about its stability, value, and role in the global economy.</p>
     
-
+    <h2>Forecasting the Price of Bitcoin</h2>
     <p><b>Predictive Patterns in Bitcoin's Price Changes: </b> We'll examine autocorrelation and partial autocorrelation in the data to identify any patterns that might exist over time lags. Autocorrelation measures the relationship between a variable's current value and its past values, while partial autocorrelation isolates the correlation at a specific lag, removing the influence of intermediary lags.</p>
     <p>Before conducting this analysis, let's first confirm that the data is stationary, as this is a requirement for these statistical methods. The Augmented Dickey-Fuller test returns a p-value of approximately 0.59. The Bitcoin closing price data appears to be non-stationary, meaning it has a time-dependent structure.</p>
     <p>To handle non-stationarity, we often difference the data, i.e., calculate the change in price from one period to the next. Let's create a differenced series and test it for stationarity. If it is stationary, we can proceed with the autocorrelation and partial autocorrelation analysis.</p>
